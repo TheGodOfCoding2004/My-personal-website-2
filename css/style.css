@@ -186,4 +186,10 @@ a:hover {
 /*Adding custom font*/
 @font-face {
     font-family : 'Anurati' ; 
-    src : url('Anurati-Regular.otf');
+    src : url('Anurati-Regular.otf')
+}
+
+@font-face {
+	font-family : 'blanka';
+	src : url('Blanka-Regular.ttf')
+}
