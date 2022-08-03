@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me !</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="index.html">
+        <button class = 'btn' >Back to homepage</button>
+    </a>
+    <h1>Contact Me form</h1>
+    <div class = 'container'>
+        <form action="mailto:juniperbilling12@gmail.com" enctype = 'text/plain' method = 'post'>
+            <label for="fname">First Name </label>
+            <input type="text" id = 'fname' name = 'firstname' , placeholder="Your Name...">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="bday">Date of Birth</label>
+            <input type="date" placeholder="dd-mm-yyyy" id='bday' name = 'bday' >
+            <label for="email">Email</label>
+            <input type="email" id = 'email' name = 'email' placeholder='Email..'>
+
+            <label for="country">Country</label>
+            <select id="country" name="country" >
+            <option value="selectcountry" selected>Select Country </option>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Do you have a message for me ? " style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+</body>
+</html>
